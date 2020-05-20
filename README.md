@@ -13,3 +13,11 @@ Feel free to contribute.
 - Add `ensure jones-fivem_discordbot` to your server.cfg
 - Invite the bot to your discord server by opening https://discordapp.com/oauth2/authorize?client_id=123456789&permissions=403254272&scope=bot in your browser and replace client_id with your bot's client_id which you can find by opening https://discord.com/developers/applications > Select the application you used with your bot > Under client ID, click copy.
 - Enjoy!
+
+## FAQs
+**Q:** I'm getting 
+> Warning: Resource jones-fivem_discordbot does not specify an `fx_version` in fxmanifest.lua. 
+
+What should I do?
+
+**A:** You need to update your FiveM server artifacts. Download the latest version depending on your OS: [Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/) [Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/).
