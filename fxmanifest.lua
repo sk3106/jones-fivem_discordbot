@@ -9,3 +9,5 @@ version '1.0.0'
 -- What to run
 server_script 'index.js'
 client_script 'client.js'
+
+dependency 'yarn'
